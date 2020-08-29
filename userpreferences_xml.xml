@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:key="SENSOR_DELAY_SPEED"
+        android:title="Sensor Delay Speed"
+        android:summary="Select to turn on high phase"
+        android:defaultValue="true"  />
+    <ListPreference
+        android:key="SWITCH_LANGUAGES"
+        android:title="Change Languages"
+        android:summary="Select languages"
+        android:entries="@array/language_options"
+        android:entryValues="@array/language_values"
+        android:dialogTitle="Refresh me!"
+        android:defaultValue="0"  />
+    <ListPreference
+        android:key="SWITCH_UNIT"
+        android:title="Change unit"
+        android:summary="Select units"
+        android:entries="@array/AttitudeUnit_options"
+        android:entryValues="@array/AttitudeUnit_values"
+        android:dialogTitle="Refresh me!"
+        android:defaultValue="0"  />
+</PreferenceScreen>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">-->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/RLayout" >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:text="WC: "
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:id="@+id/walkCount_string"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:text="Uninitialized"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:id="@+id/walkCount_int"
+        android:layout_toRightOf="@+id/walkCount_string" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:text="   "
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:id="@+id/space"
+        android:layout_toRightOf="@+id/walkCount_int" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:text="@string/attitude_name"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:id="@+id/Attitude_string"
+        android:layout_toRightOf="@+id/space" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:text="atitude"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:id="@+id/Attitude_int"
+        android:layout_toRightOf="@+id/Attitude_string" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Reset"
+        android:id="@+id/reset"
+        android:layout_toRightOf="@+id/Attitude_int" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Map"
+        android:id="@+id/map"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>
+
+
+<!--
+</LinearLayout>-->
